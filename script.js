@@ -13,16 +13,16 @@ function calc(){
     if(imc < 18.5){
         tabela.innerHTML = `<h2><br><strong><style> #tab { color: orange; margin-top: -18px;} </style>ABAIXO DO PESO!</strong></h2>`
     }
-    else if(imc >= 18.5 || imc <= 24.9){
+    else if(imc >=18.5 && imc <= 24.9){
         tabela.innerHTML = `<h2><br><strong><style> #tab { color: green; margin-top: -18px;} </style>PESO NORMAL!</strong></h2>`
     }
-    else if(imc >= 25.0 || imc <= 29.9){
-        tabela.innerHTML = `<h2><br><strong><style> #tab { color: blue; margin-top: -18px; margin-top: -10px;} </style>EXCESSO DE PESO !</strong></h2>`
+    else if(imc >=25.0 && imc <= 29.9){
+        tabela.innerHTML = `<h2><br><strong><style> #tab { color: aqua; margin-top: -18px; margin-top: -10px;} </style>EXCESSO DE PESO !</strong></h2>`
     }
-    else if(imc >= 30.0 || imc <= 34.9){
+    else if(imc >=30.0 && imc <= 34.9){
         tabela.innerHTML = `<h2><br><strong><style> #tab { color: red; margin-top: -18px;} </style>OBESIDADE GRAU 1 !</strong></h2>`
     }
-    else if(imc >= 35.0 || imc <= 39.9){
+    else if(imc >=35.0 && imc <= 39.9){
         tabela.innerHTML = `<h2><br><strong><style> #tab { color: red; margin-top: -18px;} </style>OBESIDADE GRAU 2 !</strong></h2>`
     }
     else{
