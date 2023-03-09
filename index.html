@@ -8,14 +8,16 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    <h1>Calculadora de IMC</h1>
-    <h2>Altura: </h2>
-    <input type="number"id="altura" placeholder="ex: 1.70cm">
-    <h2>Peso: </h2>
-    <input type="number"id="peso" placeholder="ex: 90kg">
-    <input type="button"id="calcular" value="calcular" onclick="calc()">
-    <div id="res"></div>
-    <div id="tab"></div>
+    <div id="box">
+        <h1>Calculadora de IMC</h1>
+        <h2 id="hs">Altura: </h2>
+        <input type="number"id="altura" placeholder="ex: 1.70cm">
+        <h2 id="ps">Peso: </h2>
+        <input type="number"id="peso" placeholder="ex: 90kg">
+        <input type="button"id="calcular" value="Calcular" onclick="calc()">
+        <div id="res"></div>
+        <div id="tab"></div>
+    </div>
 
     <script src="/script.js"></script>
 </body>

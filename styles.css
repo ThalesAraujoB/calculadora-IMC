@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Tilt+Warp&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(2, 2, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#box{
+    padding: 25px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 100;
+    font: 25px;
+    font-family: Playfair Display sans-serif;
+    width: 350px;
+    height: 350px;
+    margin: 160px;
+    background-color: rgb(26, 24, 23);
+    color: white;
+}
+#calcular{
+    margin-top: 15px;
+    font-family: Roboto sans-serif;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(2, 2, 29);
+    color: white;
+    border-radius: 8px;
+    height: 40px;
+    width: 75px;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+#calcular:hover{
+    font-size: 20px;
+    height: 43px;
+    width: 78px;
+    background-color: white;
+    color: rgb(26, 24, 23);
+}
+#altura,#peso{
+    padding: 16px;
+    border: none;
+    border-radius: 8px;
+    height: 25px;
+    width: 120px;
+}
+#ps{
+    margin-bottom: -10px;
+}
+#hs{
+    margin-bottom: 10px;
+}
+h1{
+    margin-bottom: 15px;
+}
+#res,#tab{
+    margin-top: 10px;
+}
+#res{
+    font-size: 20px;
+}
